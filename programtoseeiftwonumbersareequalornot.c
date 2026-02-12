@@ -3,14 +3,15 @@ int main()
 {
     int a, b;
     printf("Enter two numbers\n");
-    scandf("%d %d", &a, &b);
-    if (a==b);
+    scanf("%d %d", &a, &b);
+    if (a==b)
     {
         printf("Both numbers are equal");
     }
-    else;
+    else
     {
         printf("Both nummbers are not equal");
     }
     return 0;
+
 }
